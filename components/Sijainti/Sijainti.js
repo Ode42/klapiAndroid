@@ -5,7 +5,7 @@ function Sijainti({ history }) {
     return (
         <View>
             <Text>Sijainti sivu</Text>
-            <Button title="change page" onPress={() => history.push("/")} />
+            <Button title="change page" onPress={() => history.push('/')} />
         </View>
     );
 }
